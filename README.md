@@ -138,4 +138,4 @@ The AI combines:
    ```bash
    python main.py
    ```
-## **Happy gaming!
+## Happy gaming!
