@@ -1,3 +1,6 @@
+Here's the completed and formatted README without the horizontal lines. I ensured all sections are intact and consistent:
+
+```markdown
 ## AI Stratego: Battle Your Opponent
 
 ## **Overview**
@@ -106,4 +109,33 @@ Used for optimizing initial piece placement:
 
 ### **3. Combined Approach**
 The AI combines:  
-- **Genetic Algorithm
+- **Genetic Algorithm** for static optimization (initial setup).  
+- **Rule-Based Heuristics** for dynamic decision-making during gameplay.  
+
+## **Technologies Used**
+- **Python 3.12**  
+- **Pygame**: For game development and rendering.
+
+## **Installation**
+
+### Clone the Repository
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<your-github-username>/AI-Stratego-Battle-Your-Opponent.git
+   cd AI-Stratego-Battle-Your-Opponent
+   ```
+
+2. Install the dependencies:  
+   ```bash
+   pip install pygame
+   ```
+
+3. Run the game:  
+   ```bash
+   python main.py
+   ```
+
+## **Happy gaming!**
+```
+
+This is now complete, consistent, and ready for use in your repository! Let me know if you need further modifications.
