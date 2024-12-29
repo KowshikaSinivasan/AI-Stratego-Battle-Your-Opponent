@@ -1,19 +1,15 @@
 ## AI Stratego: Battle Your Opponent
----
+
 ## **Overview**
 This game is a simplified version of the classic board game **Stratego**, where a human player faces off against an AI opponent. The game features strategic piece placement, tactical movement, and hidden ranks, with AI utilizing **genetic algorithms** for board setup and **rule-based heuristics** for gameplay. 
 
 The objective is to **capture the opponent’s flag** while defending your own. This project blends strategy and AI to create an engaging and challenging experience for players.
-
----
 
 ## **Features**
 - The game is played between two players: **Red** and **Blue**.
 - Each player has **16 pieces** arranged on an **8x8 grid** at the start of the game.
 - Pieces include various ranks such as **Spy, Bombs, Soldiers, and Generals**.
 ![image](https://github.com/user-attachments/assets/e8994677-2354-49bc-bac7-85b1572f6c0b)
-
----
 
 ## **Players and Setup**
 ### **1. Initial Setup**
@@ -27,8 +23,6 @@ The objective is to **capture the opponent’s flag** while defending your own. 
 ### **3. Objective**
 - **Capture the opponent's Flag** or eliminate all their movable pieces.  
 - Capturing the **Flag** results in an **immediate victory**, while eliminating all pieces leaves the opponent without options.
-
----
 
 ## **Gameplay Mechanics**
 
@@ -53,8 +47,6 @@ The objective is to **capture the opponent’s flag** while defending your own. 
 - The **Spy** can defeat the **Marshal** but loses to all other ranks.  
 - The **Miner** is the only piece capable of defusing **Bombs**.
 
----
-
 ## **Player Setup**
 
 ### **1. Human Player Setup**
@@ -67,8 +59,6 @@ The objective is to **capture the opponent’s flag** while defending your own. 
   - Piece safety.  
   - Board coverage.  
   - Attack potential.
-
----
 
 ## **Game Phases**
 
@@ -83,8 +73,6 @@ The AI’s piece placement is handled by a **Genetic Algorithm (GA)** that optim
 - Creating a balance between offense and defense.  
 - Maximizing board coverage and minimizing vulnerabilities.  
 
----
-
 ### **2. Gameplay Mechanics**
 
 #### **Human Player Gameplay**
@@ -98,8 +86,6 @@ The AI employs **Rule-Based Heuristics** for gameplay, with strategies such as:
 - **Strategic Movements:** Prioritizing piece safety and targeting opponent pieces.  
 - **Combat Strategy:** Leveraging ranks for efficiency (e.g., using the Spy against the Marshal).  
 - **Piece-Specific Logic:** Miners defuse bombs, while Scouts explore the board.
-
----
 
 ## **AI Algorithms Used**
 
@@ -120,36 +106,4 @@ Used for optimizing initial piece placement:
 
 ### **3. Combined Approach**
 The AI combines:  
-- **Genetic Algorithm** for static optimization (initial setup).  
-- **Rule-Based Heuristics** for dynamic decision-making during gameplay.  
-
----
-
-## **Technologies Used**
-- **Python 3.12**  
-- **Pygame**: For game development and rendering.
-
----
-
-## **Installation**
-
-### Clone the Repository
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/<your-github-username>/AI-Stratego-Battle-Your-Opponent.git
-   cd AI-Stratego-Battle-Your-Opponent
-   ```
-
-2. Install the dependencies:  
-   ```bash
-   pip install pygame
-   ```
-
-3. Run the game:  
-   ```bash
-   python main.py
-   ```
-
----
-=
-## **Happy gaming!
+- **Genetic Algorithm
