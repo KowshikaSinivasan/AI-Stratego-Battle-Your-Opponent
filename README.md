@@ -1,5 +1,4 @@
 ## **AI Stratego: Battle Your Opponent**
-
 ---
 ## **Overview**
 This game is a simplified version of the classic board game **Stratego**, where a human player faces off against an AI opponent. The game features strategic piece placement, tactical movement, and hidden ranks, with AI utilizing **genetic algorithms** for board setup and **rule-based heuristics** for gameplay. 
