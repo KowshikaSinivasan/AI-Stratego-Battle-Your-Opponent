@@ -5,7 +5,7 @@ This game is a simplified version of the classic board game **Stratego**, where 
 
 The objective is to **capture the opponent’s flag** while defending your own. This project blends strategy and AI to create an engaging and challenging experience for players.
 
----
+
 
 ## **Features**
 - The game is played between two players: **Red** and **Blue**.
@@ -13,7 +13,6 @@ The objective is to **capture the opponent’s flag** while defending your own. 
 - Pieces include various ranks such as **Spy, Bombs, Soldiers, and Generals**.
 ![image](https://github.com/user-attachments/assets/e8994677-2354-49bc-bac7-85b1572f6c0b)
 
----
 
 ## **Players and Setup**
 ### **1. Initial Setup**
@@ -27,8 +26,6 @@ The objective is to **capture the opponent’s flag** while defending your own. 
 ### **3. Objective**
 - **Capture the opponent's Flag** or eliminate all their movable pieces.  
 - Capturing the **Flag** results in an **immediate victory**, while eliminating all pieces leaves the opponent without options.
-
----
 
 ## **Gameplay Mechanics**
 
@@ -53,7 +50,6 @@ The objective is to **capture the opponent’s flag** while defending your own. 
 - The **Spy** can defeat the **Marshal** but loses to all other ranks.  
 - The **Miner** is the only piece capable of defusing **Bombs**.
 
----
 
 ## **Player Setup**
 
@@ -68,8 +64,6 @@ The objective is to **capture the opponent’s flag** while defending your own. 
   - Board coverage.  
   - Attack potential.
 
----
-
 ## **Game Phases**
 
 ### **1. Positioning Human and AI Pieces**
@@ -83,7 +77,6 @@ The AI’s piece placement is handled by a **Genetic Algorithm (GA)** that optim
 - Creating a balance between offense and defense.  
 - Maximizing board coverage and minimizing vulnerabilities.  
 
----
 
 ### **2. Gameplay Mechanics**
 
@@ -99,7 +92,6 @@ The AI employs **Rule-Based Heuristics** for gameplay, with strategies such as:
 - **Combat Strategy:** Leveraging ranks for efficiency (e.g., using the Spy against the Marshal).  
 - **Piece-Specific Logic:** Miners defuse bombs, while Scouts explore the board.
 
----
 
 ## **AI Algorithms Used**
 
@@ -123,13 +115,10 @@ The AI combines:
 - **Genetic Algorithm** for static optimization (initial setup).  
 - **Rule-Based Heuristics** for dynamic decision-making during gameplay.  
 
----
 
 ## **Technologies Used**
 - **Python 3.12**  
 - **Pygame**: For game development and rendering.
-
----
 
 ## **Installation**
 
@@ -149,7 +138,4 @@ The AI combines:
    ```bash
    python main.py
    ```
-
----
-=
 ## **Happy gaming!
