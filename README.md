@@ -152,11 +152,5 @@ The AI combines:
    ```
 
 ---
-
-### License
-
----
-This project is licensed under the MIT License
-
----------
-## **Lets Conquer!!
+=
+## **Happy gaming!
