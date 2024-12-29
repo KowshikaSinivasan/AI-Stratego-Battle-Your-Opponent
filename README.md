@@ -1,7 +1,9 @@
-# Overview
+## STRATEGO :AI vs Human Showdown
+
+### Overview
 This game is a simplified version of the classic board game Stratego, where a human player faces off against an AI opponent. The game features strategic piece placement, tactical movement, and hidden ranks, with AI utilizing genetic algorithms for board setup and rule-based heuristics for gameplay. The objective is to capture the opponent’s flag while defending your own. The project blends strategy and AI to create an engaging and challenging experience for players.
 
-# Features
+### Features
 1. Game Overview
 This AI-based version of Stratego maintains the essence of the original board game while adding modern AI-driven enhancements.
 
@@ -54,13 +56,13 @@ The human player manually positions their 16 pieces on their half of the board t
 AI Player Setup:
 The AI uses a genetic algorithm to determine its initial setup, optimizing for factors such as piece safety, coverage, and attack potential.
 
-# Technologies Used
+### Technologies Used
 
  * Python 3.12
  * Pygame: For game development and rendering.
 
 
-# Installation
+### Installation
 
 Here’s how you can customize your repository setup instructions for your GitHub project based on the image provided:
 
